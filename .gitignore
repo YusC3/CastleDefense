@@ -1,0 +1,39 @@
+# Ignore Unity-generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Ignore user-specific files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+
+# VS Code / JetBrains / IDE stuff
+.vscode/
+.idea/
+
+# Crash logs
+sysinfo.txt
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Uncomment this to ignore builds
+# Build/
+
+# Keep meta files even if asset is ignored
+!/[Aa]ssets/**/*.meta
+!/[Pp]rojectSettings/**/*.meta
