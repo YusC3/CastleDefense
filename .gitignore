@@ -10,7 +10,6 @@
 # Ignore user-specific files
 *.csproj
 *.unityproj
-*.sln
 *.suo
 *.tmp
 *.user
