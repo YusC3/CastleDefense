@@ -6,6 +6,7 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
+[Uu]serSettings/
 
 # Ignore user-specific files
 *.csproj
