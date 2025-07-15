@@ -15,6 +15,7 @@ public class Enemy_orc_behavior : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        animator.SetBool("in_range", false);
     }
     void Update()
     {
@@ -25,22 +26,26 @@ public class Enemy_orc_behavior : MonoBehaviour
         timer += Time.deltaTime;
         if (target == null || timer <= 2)
         {
-            animator.SetFloat("Xvelocity", 0);
-        }
-        else if (AttackZone.detectedcollision.Count > 0)
-        {
-            animator.SetBool("in_range", true);
-            transform.position = transform.position;
+            animator.SetFloat("speed", 0);
+            animator.SetBool("in_range", false);
         }
         else
         {
-            animator.SetBool("in_range", false);
-            animator.SetFloat("Xvelocity", 2f);
-            transform.position = Vector2.MoveTowards(
-            transform.position,
-            target.position,
-            speed * Time.deltaTime
-        );
+            if (AttackZone.detectedcollision.Count > 0)
+            {
+                animator.SetBool("in_range", true);
+                transform.position = transform.position;
+            }
+            else
+            {
+                animator.SetBool("in_range", false);
+                animator.SetFloat("speed", speed);
+                transform.position = Vector2.MoveTowards(
+                transform.position,
+                target.position,
+                speed * Time.deltaTime
+            );
+            }
         }
     }
     public void takingDamage(int amount)
