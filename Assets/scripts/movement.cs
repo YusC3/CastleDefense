@@ -1,12 +1,13 @@
-using System; 
+using System;
+using Unity.VisualScripting;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class movement : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     float speed = 5f;
     float horizontal_input;
-    bool isFacingRight = false;
 
     Rigidbody2D rd;
     Animator animator;
@@ -33,13 +34,13 @@ public class movement : MonoBehaviour
 
     void FlipSprite()
     {
-        if (isFacingRight && horizontal_input < 0f || !isFacingRight && horizontal_input > 0f)
-        {
-            isFacingRight = !isFacingRight;
-            Vector3 ls = transform.localScale;
-            ls.x *= -1f;
-            transform.localScale = ls;
-        }
+        if (horizontal_input == 0f) {return;};
+        Vector3 ls = transform.localScale;
+        if (horizontal_input < 0f)
+            { ls.x = Math.Abs(ls.x) * -1; }
+        else 
+            { ls.x = Math.Abs(ls.x); }
+        transform.localScale = ls;
     }
 }
 
