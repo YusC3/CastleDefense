@@ -1314,6 +1314,7 @@ MonoBehaviour:
   AttackZone: {fileID: 810964216}
   health: 50
   target: {fileID: 580489982}
+  HeroB: {fileID: 580489986}
 --- !u!1 &1883162273
 GameObject:
   m_ObjectHideFlags: 0

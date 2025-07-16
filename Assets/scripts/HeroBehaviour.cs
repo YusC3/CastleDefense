@@ -17,17 +17,17 @@ public class HeroBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timer += 0.016f;
-        if (timer >= 1)
-        {
-            HitPoint = HitPoint - 0.1f;
-            HealthBar.sethealth(HitPoint, MaxHitPoint);
-            timer = 0;
 
-            if (HitPoint <= 0)
-            {
-                Destroy(gameObject);
-            }
+    }
+
+    public void TakeDamage()
+    {
+        HitPoint = HitPoint - 0.1f;
+        HealthBar.sethealth(HitPoint, MaxHitPoint); 
+
+        if (HitPoint <= 0)
+        {
+            Destroy(gameObject);
         }
     }
 }
