@@ -296,6 +296,7 @@ GameObject:
   - component: {fileID: 580489983}
   - component: {fileID: 580489985}
   - component: {fileID: 580489986}
+  - component: {fileID: 580489987}
   m_Layer: 0
   m_Name: Soldier
   m_TagString: Untagged
@@ -496,6 +497,19 @@ MonoBehaviour:
   HitPoint: 0
   MaxHitPoint: 5
   HealthBar: {fileID: 790512262}
+--- !u!114 &580489987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580489979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06ecb0aaca54c4446a68229d9eef5c31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 580489980}
 --- !u!1 &756026092
 GameObject:
   m_ObjectHideFlags: 0
