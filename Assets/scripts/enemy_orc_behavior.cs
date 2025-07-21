@@ -11,7 +11,7 @@ public class Enemy_orc_behavior : MonoBehaviour
     public int health = 50;
     public Transform target;
     public HeroBehaviour HeroB;
-
+    private float death_timer = 0f;
     private float timer = 0f;
     private Animator animator;
 
@@ -23,6 +23,8 @@ public class Enemy_orc_behavior : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         animator.SetBool("in_range", false);
+        animator.SetBool("is_dead", false);
+        animator.SetBool("dead_already", true);
     }
     void Update()
     {
@@ -42,7 +44,13 @@ public class Enemy_orc_behavior : MonoBehaviour
         }
         if (health <= 0)
         {
-            Destroy(gameObject);
+            animator.SetBool("is_dead", true);
+            target = null;
+            death_timer += Time.deltaTime;
+            if (death_timer >= 2f)
+            {
+                Destroy(gameObject);
+            }
         }
         timer += Time.deltaTime;
 
@@ -74,7 +82,6 @@ public class Enemy_orc_behavior : MonoBehaviour
             { ls.x = Math.Abs(ls.x) * -1; }
             else { ls.x = Math.Abs(ls.x); }
             transform.localScale = ls;
-
         }
     }
     public void takingDamage(int amount)
