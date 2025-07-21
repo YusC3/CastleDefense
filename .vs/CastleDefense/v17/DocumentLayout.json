@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\CastleDefense\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82C4C334-3AC2-7160-6B7D-163E11D7E3F0}|Assembly-CSharp.csproj|C:\\CastleDefense\\assets\\scripts\\enemy_orc_behavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82C4C334-3AC2-7160-6B7D-163E11D7E3F0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy_orc_behavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82C4C334-3AC2-7160-6B7D-163E11D7E3F0}|Assembly-CSharp.csproj|c:\\castledefense\\assets\\scripts\\herobehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82C4C334-3AC2-7160-6B7D-163E11D7E3F0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\herobehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82C4C334-3AC2-7160-6B7D-163E11D7E3F0}|Assembly-CSharp.csproj|C:\\CastleDefense\\assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82C4C334-3AC2-7160-6B7D-163E11D7E3F0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82C4C334-3AC2-7160-6B7D-163E11D7E3F0}|Assembly-CSharp.csproj|c:\\castledefense\\assets\\scripts\\spawn_new_orc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C4C334-3AC2-7160-6B7D-163E11D7E3F0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawn_new_orc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +14,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 31,
+          "SelectedChildIndex": 45,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:160:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:159:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:158:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:155:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:157:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:154:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -63,10 +87,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -114,6 +134,26 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:149:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:150:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:151:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:152:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
@@ -145,42 +185,28 @@
               "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "movement.cs",
-              "DocumentMoniker": "C:\\CastleDefense\\Assets\\scripts\\movement.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\movement.cs",
-              "ToolTip": "C:\\CastleDefense\\Assets\\scripts\\movement.cs",
-              "RelativeToolTip": "Assets\\scripts\\movement.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAACkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T23:41:01.052Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:153:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:156:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "enemy_orc_behavior.cs",
-              "DocumentMoniker": "C:\\CastleDefense\\Assets\\scripts\\enemy_orc_behavior.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\enemy_orc_behavior.cs",
-              "ToolTip": "C:\\CastleDefense\\Assets\\scripts\\enemy_orc_behavior.cs",
-              "RelativeToolTip": "Assets\\scripts\\enemy_orc_behavior.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCYAAAAdAAAAAAAAAA==",
+              "Title": "Spawn_New_Orc.cs",
+              "DocumentMoniker": "C:\\CastleDefense\\Assets\\scripts\\Spawn_New_Orc.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Spawn_New_Orc.cs",
+              "ToolTip": "C:\\CastleDefense\\Assets\\scripts\\Spawn_New_Orc.cs",
+              "RelativeToolTip": "Assets\\scripts\\Spawn_New_Orc.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wB4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T23:21:01.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HeroBehaviour.cs",
-              "DocumentMoniker": "C:\\CastleDefense\\Assets\\scripts\\HeroBehaviour.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\HeroBehaviour.cs",
-              "ToolTip": "C:\\CastleDefense\\Assets\\scripts\\HeroBehaviour.cs",
-              "RelativeToolTip": "Assets\\scripts\\HeroBehaviour.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T20:16:30.686Z",
+              "WhenOpened": "2025-07-21T00:44:45.063Z",
               "EditorCaption": ""
             }
           ]
