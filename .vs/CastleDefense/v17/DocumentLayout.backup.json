@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\CastleDefense\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82C4C334-3AC2-7160-6B7D-163E11D7E3F0}|Assembly-CSharp.csproj|c:\\castledefense\\assets\\scripts\\attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C4C334-3AC2-7160-6B7D-163E11D7E3F0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C4C334-3AC2-7160-6B7D-163E11D7E3F0}|Assembly-CSharp.csproj|c:\\castledefense\\assets\\scripts\\heroattackzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C4C334-3AC2-7160-6B7D-163E11D7E3F0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\heroattackzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C4C334-3AC2-7160-6B7D-163E11D7E3F0}|Assembly-CSharp.csproj|C:\\CastleDefense\\assets\\scripts\\enemy_orc_behavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C4C334-3AC2-7160-6B7D-163E11D7E3F0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy_orc_behavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C4C334-3AC2-7160-6B7D-163E11D7E3F0}|Assembly-CSharp.csproj|C:\\CastleDefense\\assets\\scripts\\detectorzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C4C334-3AC2-7160-6B7D-163E11D7E3F0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectorzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C4C334-3AC2-7160-6B7D-163E11D7E3F0}|Assembly-CSharp.csproj|C:\\CastleDefense\\assets\\scripts\\herobehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C4C334-3AC2-7160-6B7D-163E11D7E3F0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\herobehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C4C334-3AC2-7160-6B7D-163E11D7E3F0}|Assembly-CSharp.csproj|C:\\CastleDefense\\assets\\scripts\\spawn_new_orc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C4C334-3AC2-7160-6B7D-163E11D7E3F0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawn_new_orc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 47,
           "Children": [
             {
               "$type": "Bookmark",
@@ -190,6 +215,83 @@
             {
               "$type": "Bookmark",
               "Name": "ST:156:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HeroAttackZone.cs",
+              "DocumentMoniker": "C:\\CastleDefense\\Assets\\scripts\\HeroAttackZone.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\HeroAttackZone.cs",
+              "ToolTip": "C:\\CastleDefense\\Assets\\scripts\\HeroAttackZone.cs",
+              "RelativeToolTip": "Assets\\scripts\\HeroAttackZone.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwA8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:55:59.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DetectorZone.cs",
+              "DocumentMoniker": "C:\\CastleDefense\\Assets\\scripts\\DetectorZone.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\DetectorZone.cs",
+              "ToolTip": "C:\\CastleDefense\\Assets\\scripts\\DetectorZone.cs",
+              "RelativeToolTip": "Assets\\scripts\\DetectorZone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:16:14.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "attack.cs",
+              "DocumentMoniker": "C:\\CastleDefense\\Assets\\scripts\\attack.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\attack.cs",
+              "ToolTip": "C:\\CastleDefense\\Assets\\scripts\\attack.cs*",
+              "RelativeToolTip": "Assets\\scripts\\attack.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T02:07:55.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "enemy_orc_behavior.cs",
+              "DocumentMoniker": "C:\\CastleDefense\\Assets\\scripts\\enemy_orc_behavior.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\enemy_orc_behavior.cs",
+              "ToolTip": "C:\\CastleDefense\\Assets\\scripts\\enemy_orc_behavior.cs",
+              "RelativeToolTip": "Assets\\scripts\\enemy_orc_behavior.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T02:07:44.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HeroBehaviour.cs",
+              "DocumentMoniker": "C:\\CastleDefense\\Assets\\scripts\\HeroBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\HeroBehaviour.cs",
+              "ToolTip": "C:\\CastleDefense\\Assets\\scripts\\HeroBehaviour.cs",
+              "RelativeToolTip": "Assets\\scripts\\HeroBehaviour.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T02:05:51.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Spawn_New_Orc.cs",
+              "DocumentMoniker": "C:\\CastleDefense\\Assets\\scripts\\Spawn_New_Orc.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Spawn_New_Orc.cs",
+              "ToolTip": "C:\\CastleDefense\\Assets\\scripts\\Spawn_New_Orc.cs",
+              "RelativeToolTip": "Assets\\scripts\\Spawn_New_Orc.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T00:44:45.063Z"
             }
           ]
         }
